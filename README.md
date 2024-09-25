@@ -3,10 +3,6 @@
 
 Proyecto basico de Automatizacion Web, se automatizo la Web opensource de Orange-HRM.
 
-
-
-
-
 ## Ejecutar localmente
 
 Clona el proyecto.
@@ -56,8 +52,4 @@ orangehrm-automation-web/
 ├── reporter.js # Script que genera el reporte de Allure
 ├── tsconfig.json # Configuracion de TypeScript
 └── README.md # Breve resumen del proyecto
-```# orangehrm-automation
-# orangehrm-automation
-# orangehrm-automation
-# orangehrm-automation
-# orangehrm-automation
+```
