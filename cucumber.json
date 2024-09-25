@@ -1,0 +1,20 @@
+{
+    "default": {
+        "paths":[
+            "src/test/features/"
+        ],
+        "dryRun": false,
+        "require": [
+            "src/test/stepdefinitions/*.ts",
+            "src/test/hooks/hooks.ts"
+        ],
+        "requireModule":[
+            "ts-node/register"
+        ],
+        "paralalel": 2,
+        "format": [
+            "progress",
+            "./reporter.js"
+        ]
+    }
+}

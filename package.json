@@ -1,0 +1,27 @@
+{
+  "name": "orangehrm-automation-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf ./src/test/evidence/*",
+    "test": "cucumber-js --tags",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open"
+  },
+  "keywords": [],
+  "author": "Cesar Arevalo",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5",
+    "allure-commandline": "^2.30.0",
+    "allure-cucumberjs": "^3.0.1",
+    "reflect-metadata": "^0.2.2",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
