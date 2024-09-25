@@ -1,7 +1,7 @@
 
 # Automatizacion Web con TypeScript, PlayWright, Cucumber y Allure
 
-Proyecto basico de Automatizacion Web, se automtizo la Web opensource de Orange-HRM.
+Proyecto basico de Automatizacion Web, se automatizo la Web opensource de Orange-HRM.
 
 
 
